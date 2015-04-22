@@ -1,0 +1,72 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#7ABAAF"
+    android:layout_gravity="center_vertical"
+    android:orientation="vertical"
+    tools:context="com.example.android.piadapp.InizioApp">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:id="@+id/griglia"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            style="@style/ButtonIntroStyle"
+            android:id="@+id/lista"
+            android:background="@drawable/lista"
+
+            android:text="Lista" />
+
+        <Button
+            style="@style/ButtonIntroStyle"
+            android:id="@+id/mappa"
+            android:background="@drawable/mappa"
+            android:text="Mappa" />
+
+        <!--<Button
+            android:id="@+id/amico"
+            android:layout_row="2"
+            android:layout_column="0"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:text="Spedisci a un amico" />-->
+
+        </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <Button
+            style="@style/ButtonIntroStyle"
+            android:id="@+id/personale"
+            android:background="@drawable/crea"
+            android:layout_row="0"
+            android:layout_column="1"
+            android:text="Crea una piada" />
+
+        <Button
+            style="@style/ButtonIntroStyle"
+            android:background="@drawable/preferiti"
+            android:id="@+id/preferiti"
+            android:layout_row="1"
+            android:layout_column="1"
+            android:text="Piade preferite" />
+
+
+
+
+    </LinearLayout>
+
+
+
+  <!--  <ListView
+        android:id="@android:id/list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />-->
+
+
+
+
+</LinearLayout>

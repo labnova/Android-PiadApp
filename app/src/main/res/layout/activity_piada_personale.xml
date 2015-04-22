@@ -1,0 +1,228 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/radice"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.android.piadapp.PiadaPersonale">
+
+
+    <CheckBox
+        android:id="@+id/vegetariano"
+        android:onClick="onVegClicked"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sei Vegetariano?" />
+
+    <LinearLayout
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:background="@drawable/background"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content">
+
+        <TextView
+            style="@style/LabelPiada"
+            android:id="@+id/tvCarne"
+            android:layout_gravity="center_vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Carne"
+            />
+
+        <Spinner
+            android:layout_marginRight="10dp"
+            android:id="@+id/spinnerCarne"
+            android:layout_width="100dp"
+            android:layout_gravity="center_vertical"
+            android:layout_height="wrap_content" />
+
+        <AutoCompleteTextView
+            android:layout_gravity="right"
+            android:id="@+id/edCarne"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:background="@drawable/background"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content">
+
+        <TextView
+            style="@style/LabelPiada"
+            android:id="@+id/tvSalumi"
+            android:layout_gravity="center_vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Salumi"
+            />
+
+        <Spinner
+            android:layout_marginRight="10dp"
+            android:id="@+id/spinnerSalumi"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content" />
+
+        <AutoCompleteTextView
+            android:layout_gravity="right"
+            android:id="@+id/edSalumi"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:background="@drawable/background"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content">
+
+        <TextView
+          style="@style/LabelPiada"
+          android:layout_gravity="center_vertical"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Formaggi"
+          />
+
+        <Spinner
+            android:layout_marginRight="10dp"
+            android:id="@+id/spinnerFormaggi"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content" />
+
+      <AutoCompleteTextView
+          android:layout_gravity="right"
+          android:id="@+id/formaggi"
+          android:layout_width="140dp"
+          android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:background="@drawable/background"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content">
+
+        <TextView
+            style="@style/LabelPiada"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="Altro"
+            />
+
+        <Spinner
+            android:layout_marginRight="10dp"
+            android:id="@+id/spinnerAltro"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content" />
+
+        <AutoCompleteTextView
+            android:layout_gravity="right"
+            android:id="@+id/altriIngredienti"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:background="@drawable/background"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content">
+
+        <TextView
+            style="@style/LabelPiada"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="Salse"
+            />
+
+        <Spinner
+            android:id="@+id/spinnerSalse"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content" />
+
+
+        <AutoCompleteTextView
+            android:layout_gravity="right"
+            android:id="@+id/edSalse"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <CheckBox
+            android:id="@+id/pomodoro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pomodoro" />
+        <CheckBox
+            android:id="@+id/verdure"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Verdure" />
+        <CheckBox
+            android:id="@+id/mozzarella"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mozzarella" />
+
+
+    </LinearLayout>
+
+    <TextView
+        style="@style/LabelPiada"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Vuoi dare un nome alla tua Piada?"
+        />
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+        <EditText
+            android:layout_marginRight="10dp"
+            android:id="@+id/nomePiada"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content" />
+
+        <Button
+            style="@style/GeneralButton"
+            android:id="@+id/creaPiada"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Crea" />
+
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>

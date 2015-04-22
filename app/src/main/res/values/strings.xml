@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">PiadApp</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_piada_dettagli">PiadaDettagliActivity</string>
+    <string name="title_activity_my_prefs">MyPrefsActivity</string>
+    <string name="title_activity_inizio_app">InizioApp</string>
+    <string name="title_activity_mappa">Mappa Piade</string>
+    <string name="map_info" />
+    <string name="title_activity_piada_personale">PiadaPersonale</string>
+    <string name="title_activity_piada_finale">PiadaFinale</string>
+    <string name="facebook_app_id">411602952351507</string>
+
+
+    <string-array name="spinnerFormaggi">
+        <item>Stracchino</item>
+        <item>Squaquerone</item>
+        <item>Edamer</item>
+        <item>Scamorza</item>
+        <item>Pecorino</item>
+        <item>Grana</item>
+        <item>Philadelphia</item>
+    </string-array>
+
+    <string-array name="spinnerSalumi">
+        <item>Prosciutto Crudo</item>
+        <item>Brie</item>
+        <item>Bresaola</item>
+        <item>Prosciutto Cotto</item>
+        <item>Speck</item>
+        <item>Salame</item>
+        <item>Salame Piccante</item>
+    </string-array>
+
+    <string-array name="spinnerCarne">
+        <item>Salsiccia</item>
+        <item>Arrosto di Tacchino</item>
+        <item>Wurstel</item>
+    </string-array>
+
+    <string-array name="spinnerAltro">
+        <item>Patate</item>
+        <item>Cipolla</item>
+        <item>Pancetta</item>
+        <item>Tonno</item>
+        <item>Funghi</item>
+        <item>Rucola</item>
+        <item>Noci</item>
+        <item>Salmone</item>
+    </string-array>
+
+    <string-array name="spinnerSalse">
+        <item>Maionese</item>
+        <item>Pate d\'Olive</item>
+        <item>Salsa Rosa</item>
+    </string-array>
+    <string name="title_activity_preferiti">Preferiti</string>
+
+</resources>
